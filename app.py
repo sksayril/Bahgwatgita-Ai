@@ -72,7 +72,7 @@ def final_result(query):
 
 def main():
     st.title("Bhagavad Gita AI")
-    st.title("This ai Conetent Cannot have to belief All Response it have train the opensourece datasets")
+    st.write("This AI content does not necessarily have to believe all responses; it has been trained on open-source datasets.")
     # User input for the query
     query = st.text_area("Enter your question about Bhagavad Gita:")
 
